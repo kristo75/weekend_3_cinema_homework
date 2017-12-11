@@ -42,7 +42,8 @@ ticket2.save()
 ticket1.film_id = film2.id
 ticket1.update
 
-# customer = customer1.films()
+# films = film1.count()
+# customer = film1.customer()
 films = customer1.films()
 binding.pry
 nil
